@@ -11,8 +11,8 @@
     Then I verify the <status> in step
 
     Examples: 
-      | email 	| username 	 | status 			|
-   #   | ranUser	| ranUser		 | "success" 			|
-      | ranUser	| ranUser101 | "too long"  |
-      | saved 	| saved 		 | "already in use"  |
-      | empty	  | ranUser		 | "no email"  |
+      | email 	| username 	 | status 				  |
+      | ranUser	| ranUser		 | "success" 			  |
+      | ranUser	| ranUser101 | "too long" 		  |
+      | saved 	| saved 		 | "already in use" |
+      | empty	  | ranUser		 | "email missing"  |
